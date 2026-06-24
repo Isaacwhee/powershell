@@ -39,3 +39,6 @@ if [ ! -f /etc/shells ]; then
 else
     grep -q "^${POWERSHELL_LINKFILE}$" /etc/shells || echo $POWERSHELL_LINKFILE >> /etc/shells ;
 fi
+:
+link
+ 
